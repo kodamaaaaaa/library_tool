@@ -8,4 +8,91 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<body>
+  <img class="wave" src="images/purple.jpg" alt="">
 
+  <header></header>
+
+  <div class="container">
+    <div class="img">
+      <img src="images/background_pink.svg" alt="">
+    </div>
+
+    <div class="login-content">
+      <form action="index_file.html">
+        <a href="https://www.artner.co.jp/" target="_blank">
+          <img src="images/altner_logo.svg" alt="">
+        </a>
+
+        <h2 class="title"></h2>
+
+        <div class="input-div one">
+          <div class="i">
+            <i class="f"></i>
+          </div>
+          <div class="div">
+            <input type="text" name="ID" placeholder="ID" id="idText" class="input" required>
+          </div>
+        </div>
+
+        <div class="input-div pass">
+          <div class="i">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="div">
+            <input type="text" name="Password" placeholder="Password" id="passText" class="input" required>
+          </div>
+        </div>
+
+        <div class="forget">
+          <a href="#" class = "signup">Forgot Password?</a>
+        </div>
+
+        <input type="button" class="btn" onclick="nextPage()" value="Login">
+
+        <div class="account">
+          <p>Don't have an account?</p>
+        </div>
+		  
+　　　　 <div class ="error-msg">
+		   <p>Incorrect ID or Passsword.</p>
+	    </div>
+		  
+        <div class="sign">
+          <a href="#" class="signup-trigger">Sign up</a>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/login.js"></script>
+
+<script>
+    !function (t, e, c, n) {
+        var s = e.createElement(c);
+        s.async = 1, s.src = 'https://scripts.claspo.io/scripts/' + n + '.js';
+        var r = e.scripts[0];
+        r.parentNode.insertBefore(s, r);
+        var f = function () {
+            f.c(arguments);
+        };
+        f.q = [];
+        f.c = function () {
+            f.q.push(arguments);
+        };
+        t['claspo'] = t['claspo'] || f;
+    }(window, document, 'script', 'D85AF6F680794C658CC18CF808E79688');
+</script><script>claspo('init');</script>
+
+  <script>
+    const signup = document.querySelector(".signup-trigger");
+    if (signup) {
+      signup.addEventListener("click", (e) => {
+        e.preventDefault();
+
+      });
+    }
+  </script>
+</body>
+</html>
