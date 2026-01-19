@@ -246,12 +246,13 @@ a:hover{
 .error-msg{
   margin-top: 6px;
   margin-bottom: 12px;
-  color: #e74c3c;
+  color: #red;
   font-size: 0.9rem;
   text-align: left;
 }
 
 	
+
 
 
 
