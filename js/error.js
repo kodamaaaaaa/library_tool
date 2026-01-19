@@ -1,7 +1,7 @@
 'use strict';
     function nextPage() {
-        const ids = ["21001", "23002"];
-        const passes = ["573837", "582758"];
+        const ids = ["11111""21001", "23002"];
+        const passes = ["11111","573837", "582758"];
 
         const id = document.getElementById("idText").value;
         const pwd = document.getElementById("passText").value;
@@ -11,4 +11,5 @@
         } else if (id === ids[1] && pwd === passes[1]) {
         location.href = 'main1-2.html';
         }
+
 }
