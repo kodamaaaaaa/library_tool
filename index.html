@@ -64,20 +64,22 @@
 
   <script type="text/javascript" src="js/login.js"></script>
 
-  <script>
+<script>
     !function (t, e, c, n) {
-      var s = e.createElement(c);
-      s.async = 1;
-      s.src = 'https://scripts.claspo.io/scripts/' + n + '.js';
-      var r = e.scripts[0];
-      r.parentNode.insertBefore(s, r);
-      var f = function () { f.c(arguments); };
-      f.q = [];
-      f.c = function () { f.q.push(arguments); };
-      t['claspo'] = t['claspo'] || f;
+        var s = e.createElement(c);
+        s.async = 1, s.src = 'https://scripts.claspo.io/scripts/' + n + '.js';
+        var r = e.scripts[0];
+        r.parentNode.insertBefore(s, r);
+        var f = function () {
+            f.c(arguments);
+        };
+        f.q = [];
+        f.c = function () {
+            f.q.push(arguments);
+        };
+        t['claspo'] = t['claspo'] || f;
     }(window, document, 'script', 'D85AF6F680794C658CC18CF808E79688');
-  </script>
-  <script>claspo('init');</script>
+</script><script>claspo('init');</script>
 
   <script>
     const signup = document.querySelector(".signup-trigger");
@@ -90,4 +92,5 @@
   </script>
 </body>
 </html>
+
 
