@@ -244,12 +244,13 @@ a:hover{
 }
 
 .error-msg{
- transform: translateY(-20px);
+ transform: translateY(-50px);
 	margin: 15px 0;
 	color: #ff4500;
 	font-size: 1rem;
 }
 	
+
 
 
 
