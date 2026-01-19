@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>library_login</title>
+	<link rel="stylesheet" type="text/css" href="css/style_file.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="images/purple.jpg">
+    <header>
+
+    </header>
+	<div class="container">
+		<div class="img">
+			<img src="images/background_pink.svg">
+		</div>
+		<div class="login-content">
+			<form action="index_file.html">
+                <a href ="https://www.artner.co.jp/" target="_blank">
+                    	<img src="images/altner_logo.svg">
+                </a>
+				<h2 class="title"></h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="f"></i>
+           		   </div>
+           		   <div class="div">
+                        <input type = "text" name = "ID" placeholder="ID" id = "idText" class = "input" required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+                      <input type = "text" name = "Password" placeholder="Password" id = "passText" class = "input" required>
+            	   </div>
+            	</div>
+            	<a href="forget.html">Forgot Password?</a>
+            	<input type="button" class="btn" onclick="nextPage()" value="Login">
+				<div class ="account">
+					<p>Don't have an account?</p>
+				</div>
+				<div class = "sign">
+	                <a href="account.html">Sign up</a>				
+				</div>
+	
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>
