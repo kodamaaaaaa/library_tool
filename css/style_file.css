@@ -313,14 +313,15 @@ a:hover{
 }
 
 .c_logo{
-  display: block;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .c_logo img{
-  margin: 0 auto;
+  height: 160px;
+  width: auto;
 }
+
 
 
 
