@@ -312,16 +312,11 @@ a:hover{
 	}
 }
 
-/* 既存の a { text-align: right; } の影響をロゴだけ無効化 */
 .c_logo{
-  display: inline-block;
-  text-align: left;     /* 念のため */
-  margin-left: 0;       /* いったんリセット */
-  transform: translateX(-80px); /* 左へ */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 20px; /* 下に余白 */
 }
-
-/* ロゴの親を左寄せに固定（formの右寄せの影響を切る） */
-form { text-align: left; }
 
 
 
