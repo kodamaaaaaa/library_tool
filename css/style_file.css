@@ -183,7 +183,6 @@ a:hover{
 	background-position: right;
 }
 
-/* ===== メッセージ類 ===== */
 .error-msg{
 	width: 100%;
 	margin: 6px auto 12px;
@@ -312,4 +311,9 @@ a:hover{
 		font-size: 0.9rem;
 	}
 }
+.c_logo{
+	transform: translateY(-50%);
+}
+
+
 
