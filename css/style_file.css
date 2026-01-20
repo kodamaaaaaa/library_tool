@@ -206,7 +206,6 @@ a:hover{
 	font-size: 1rem;
 }
 
-/* ===== レスポンシブ ===== */
 @media screen and (max-width: 1050px){
 	.container{
 		grid-gap: 5rem;
@@ -246,10 +245,9 @@ a:hover{
 	}
 }
 
-/* スマホ（〜480px） */
 @media screen and (max-width: 480px){
 	body{
-		overflow: auto; /* スマホではスクロールできるように */
+		overflow: auto; 
 	}
 
 	.container{
@@ -297,7 +295,6 @@ a:hover{
 	}
 }
 
-/* 超小型（iPhone SE級 〜360px） */
 @media screen and (max-width: 360px){
 	.container{
 		padding: 0 0.8rem;
@@ -315,3 +312,4 @@ a:hover{
 		font-size: 0.9rem;
 	}
 }
+
