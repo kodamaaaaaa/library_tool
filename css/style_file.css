@@ -313,10 +313,15 @@ a:hover{
 }
 
 .c_logo{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto 20px; /* 下に余白 */
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+.c_logo img{
+  margin: 0 auto;
+}
+
 
 
 
