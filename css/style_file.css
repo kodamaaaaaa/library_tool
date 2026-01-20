@@ -314,8 +314,9 @@ a:hover{
 
 .c_logo{
   display: inline-block;
-  transform: translate(50px); 
+  transform: translateX(50px);
 }
+
 
 
 
