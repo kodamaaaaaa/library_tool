@@ -311,9 +311,13 @@ a:hover{
 		font-size: 0.9rem;
 	}
 }
+
 .c_logo{
-	transform: translateY(-50%);
+  display: inline-block;
+  transform: translate(-20px, -10px); 
 }
+
+
 
 
 
