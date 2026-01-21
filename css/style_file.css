@@ -314,12 +314,14 @@ a:hover{
 
 .c_logo{
   text-align: center;
+  transform: transrateX(20px);
 }
 
 .c_logo img{
   height: 160px;
   width: auto;
 }
+
 
 
 
