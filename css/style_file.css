@@ -259,4 +259,20 @@ form{
   }
 }
 
+/* Sign up を Forgot Password と同じ見た目・位置にする */
+.sign a{
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: #555;          /* Forgot と同じ色 */
+  font-size: 0.9rem;
+  transition: .3s;
+}
+
+.sign a:hover{
+  color: #38d39f;       /* Forgot と同じ hover 色 */
+}
+
+
+
 
