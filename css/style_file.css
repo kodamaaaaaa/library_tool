@@ -245,7 +245,7 @@ form{
   color: #38d39f;      
 }
 
-.img{
+.wave{
   position: fixed;      
   top: 0;
   left: 0;
@@ -254,6 +254,7 @@ form{
   z-index: -2;           
   overflow: hidden;
 }
+
 
 
 
