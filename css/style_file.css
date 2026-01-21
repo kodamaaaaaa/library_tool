@@ -57,23 +57,23 @@ body{
 ===================== */
 form{
   width: 360px;
-  text-align: center;   /* ← ロゴ中央のため重要 */
+  text-align: center;   
 }
 
-/* ロゴ */
 .c_logo{
   display: inline-block;
-  margin: 20px 0;
+  margin-top: 40px;   
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .c_logo img{
-  height: 160px;
+  height: 200px;    
   width: auto;
   display: block;
   margin: 0 auto;
 }
 
-/* その他の画像（背景イラスト等） */
 .login-content img:not(.logo-img){
   height: 100px;
 }
@@ -238,4 +238,5 @@ form{
     height: 120px;
   }
 }
+
 
