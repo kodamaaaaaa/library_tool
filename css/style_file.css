@@ -226,19 +226,19 @@ form{
 }
 
 .c_logo{
-  display: inline-block;
-  padding-top: 80px;  
+  display: block;
+  padding-top: 100px;  
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* ロゴ画像を大きく */
 .c_logo img{
-  height: 240px;       
+  height: 260px;      
   width: auto;
   display: block;
   margin: 0 auto;
 }
+
 
 
 
