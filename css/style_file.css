@@ -60,10 +60,10 @@ form{
   text-align: center;   
 }
 
+
 .c_logo{
+  padding-top: 40px;
   display: inline-block;
-  margin-top: 40px;   
-  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -238,5 +238,6 @@ form{
     height: 120px;
   }
 }
+
 
 
