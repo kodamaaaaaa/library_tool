@@ -60,20 +60,6 @@ form{
   text-align: center;   
 }
 
-
-.c_logo{
-  padding-top: 40px;
-  display: inline-block;
-  text-align: center;
-}
-
-.c_logo img{
-  height: 200px;    
-  width: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 .login-content img:not(.logo-img){
   height: 100px;
 }
@@ -238,6 +224,23 @@ form{
     height: 120px;
   }
 }
+
+.c_logo{
+  display: inline-block;
+  padding-top: 80px;  
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ロゴ画像を大きく */
+.c_logo img{
+  height: 240px;       
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 
 
