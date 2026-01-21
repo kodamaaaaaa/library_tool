@@ -236,3 +236,27 @@ form{
     height: 120px;
   }
 }
+.c_logo{
+  display: block;
+  padding-top: 100px;  
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.c_logo img{
+  height: 260px;       
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+  .c_logo{
+    padding-top: 60px;
+  }
+  .c_logo img{
+    height: 180px;
+  }
+}
+
+
