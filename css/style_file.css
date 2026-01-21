@@ -314,7 +314,7 @@ a:hover{
 
 .c_logo{
   text-align: center;
-  transform: transrateX(20px);
+  margin-top: 20px;
 }
 
 .c_logo img{
