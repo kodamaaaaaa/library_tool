@@ -315,15 +315,15 @@ a:hover{
 .c_logo img{
   height: 160px;
   width: auto ;
-  outline: 3px solid red;
 }
 
 .c_logo{
-  display: block;
+  display: inline-block;   
   text-align: center;
-  margin-top: 20px;
-  outline: 2px solid blue;
+  margin: 20px auto;       
 }
+
+
 
 
 
