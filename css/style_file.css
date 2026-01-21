@@ -34,11 +34,6 @@ body{
   padding: 0 2rem;
 }
 
-.img{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 
 .img img{
   width: 500px;
@@ -249,5 +244,17 @@ form{
 .sign a:hover{
   color: #38d39f;      
 }
+
+.img{
+  position: fixed;      
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;           
+  overflow: hidden;
+}
+
+
 
 
