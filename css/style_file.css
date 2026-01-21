@@ -34,6 +34,11 @@ body{
   padding: 0 2rem;
 }
 
+.img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 
 .img img{
   width: 500px;
@@ -231,23 +236,3 @@ form{
     height: 120px;
   }
 }
-
-.sign a{
-  display: block;
-  text-align: right;
-  text-decoration: none;
-  color: #555;         
-  font-size: 0.9rem;
-  transition: .3s;
-}
-
-.sign a:hover{
-  color: #38d39f;      
-}
-
-
-
-
-
-
-
