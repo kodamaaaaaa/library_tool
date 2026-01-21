@@ -312,17 +312,18 @@ a:hover{
 	}
 }
 
-.c_logo{
-  text-align: center;
-  margin-top: 20px;
-}
-
 .c_logo img{
   height: 160px;
-  width: auto;
+  width: auto ;
+  outline: 3px solid red;
 }
 
-
+.c_logo{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  outline: 2px solid blue;
+}
 
 
 
